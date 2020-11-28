@@ -5,7 +5,7 @@ class Category(models.Model):
     """МОДЕЛЬ КАТЕГОРИЙ"""
 
     class Meta:
-        ordering = ['name']
+        ordering = ['id']
         verbose_name = 'Категория'
         verbose_name_plural = 'Категории'
 
